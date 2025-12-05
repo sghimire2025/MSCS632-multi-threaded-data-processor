@@ -34,7 +34,7 @@ and logging in a data processing application.
 ## 3. Project Structure
 
 ```text
-data-processing-system/
+/MultiThreaded-DataProcessingSystem-Java/
 ├─ build.gradle
 ├─ settings.gradle
 └─ src/
@@ -44,6 +44,8 @@ data-processing-system/
          ├─ TaskQueue.java
          ├─ Worker.java
          └─ DataProcessingApp.java
+/MultiThreaded-DataProcessingSystem-Go/
+├─ main.go
 ```
 
 
@@ -56,7 +58,7 @@ data-processing-system/
 - Gradle installed, or use the Gradle wrapper if included
 - A terminal / command prompt
 
-### 3.2 Build and Run
+### 3.2 Build and Run Java
 
 From the project root (`data-processing-system/`), run:
 
@@ -114,6 +116,15 @@ Logging is configured in the `configureLogging()` method using
 
 ---
 
+## How to run Go cod
+  Go to path //MultiThreaded-DataProcessingSystem-Go
 
+### Run the following script
+```bash
+go run .\main.go
 
+```
 
+### Result of Running GO Language
+![alt text](image.png)
+![alt text](image-1.png)
